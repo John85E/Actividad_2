@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Galería de Imágenes</title>
+<style>
+    body {
+        background-image: url("imagen/fondo8.webp");
+    background-size: auto;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .index {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .index a {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #f2f2f2;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+<div class="index">
+    <a href="index.html">Inicio</a>
+    <a href="errores.html">Errores</a>
+    <a href="conferencias.html">Conferencias</a>
+    <a href="galeria.html">Galería</a>
+    <a href="formularios.html">Formularios</a>
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    figcaption {
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<h1>Galería de Imágenes</h1>
+
+<div class="gallery">
+    <figure>
+        <img src="Imagen/IA.jpg" alt="Imagen 1">
+        <figcaption>Inteligencia Artificial</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="Imagen/IOT.jpeg" alt="Imagen 2">
+        <figcaption>Internet de las Cosas</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="Imagen/Tecnologias web.png" alt="Imagen 3">
+        <figcaption>Tecnologias Web </figcaption>
+    </figure>
+    
+    
+</div>
+
+</body>
+</html>
